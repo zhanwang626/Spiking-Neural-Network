@@ -1,0 +1,22 @@
+sample1 = addnoise(spikes1);
+%save sample1 sample1
+sample2 = addnoise(spikes2);
+%save sample2 sample2
+sample3 = addnoise(spikes3);
+%save sample3 sample3
+sample4 = addnoise(spikes4);
+%save sample4 sample4
+sample5 = addnoise(spikes5);
+%save sample5 sample5
+sample6 = addnoise(spikes6);
+%save sample6 sample6
+sample7 = addnoise(spikes7);
+%save sample7 sample7
+sample8 = addnoise(spikes8);
+%save sample8 sample8
+sample9 = addnoise(spikes9);
+%save sample9 sample9
+sample10 = addnoise(spikes10);
+%save sample10 sample10
+sample = [sample1; sample2; sample3; sample4; sample5; sample6; sample7; sample8; sample9; sample10];
+save sample_d3 sample;

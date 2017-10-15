@@ -1,0 +1,12 @@
+w1 = rand(1,400);
+w2 = rand(1,400);
+w3 = rand(1,400);
+w4 = rand(1,400);
+w5 = rand(1,400);
+w6 = rand(1,400);
+w7 = rand(1,400);
+w8 = rand(1,400);
+w9 = rand(1,400);
+w10 = rand(1,400);
+W = [w1; w2; w3; w4; w5; w6; w7; w8; w9; w10];
+save w_origin W;
